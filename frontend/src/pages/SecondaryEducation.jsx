@@ -5,6 +5,39 @@ const SecondaryEducation = () => {
     const [activeTab, setActiveTab] = useState('Home');
     const [streamSection, setStreamSection] = useState('Intermediate Streams');
     const [searchQuery, setSearchQuery] = useState('');
+    const [wishlist, setWishlist] = useState([]);
+
+    React.useEffect(() => {
+        const savedWishlist = JSON.parse(localStorage.getItem('collegeWishlist') || '[]');
+        setWishlist(savedWishlist);
+    }, []);
+
+    const isInWishlist = (collegeName) => {
+        return wishlist.some(item => item.name === collegeName);
+    };
+
+    const toggleWishlist = (college) => {
+        let updatedWishlist;
+        const collegeId = `secondary-${college['College Name']}`;
+
+        if (isInWishlist(college['College Name'])) {
+            updatedWishlist = wishlist.filter(item => item.name !== college['College Name']);
+        } else {
+            const wishlistItem = {
+                id: collegeId,
+                name: college['College Name'],
+                location: college['Location'] || college['City'] || 'N/A',
+                type: college['Type'] || 'Secondary',
+                category: 'Secondary Education',
+                addedDate: new Date().toISOString()
+            };
+            updatedWishlist = [...wishlist, wishlistItem];
+        }
+
+        setWishlist(updatedWishlist);
+        localStorage.setItem('collegeWishlist', JSON.stringify(updatedWishlist));
+        window.dispatchEvent(new Event('wishlistUpdated'));
+    };
 
     const tabs = [
         'Home', 'Streams', 'College List', 'Scholarship', 'Job Opportunities', 'Career Opportunities'
@@ -153,6 +186,9 @@ const SecondaryEducation = () => {
                         <table className="min-w-full divide-y divide-gray-200">
                             <thead className="bg-gray-50">
                                 <tr>
+                                    <th className="px-6 py-4 text-center text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap sticky left-0 bg-gray-50 z-10">
+                                        ❤️
+                                    </th>
                                     {secondaryColleges.length > 0 && Object.keys(secondaryColleges[0]).map((key) => (
                                         <th key={key} className="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
                                             {key}
@@ -164,6 +200,20 @@ const SecondaryEducation = () => {
                                 {filteredColleges.length > 0 ? (
                                     filteredColleges.map((college, index) => (
                                         <tr key={index} className="hover:bg-blue-50/50 transition-colors duration-150">
+                                            <td className="px-6 py-4 whitespace-nowrap text-center sticky left-0 bg-white z-10">
+                                                <button
+                                                    onClick={() => toggleWishlist(college)}
+                                                    className={`p-2 rounded-lg transition-all ${isInWishlist(college['College Name'])
+                                                            ? 'bg-red-50 text-red-600 hover:bg-red-100'
+                                                            : 'bg-gray-50 text-gray-400 hover:bg-red-50 hover:text-red-600'
+                                                        }`}
+                                                    title={isInWishlist(college['College Name']) ? 'Remove from wishlist' : 'Add to wishlist'}
+                                                >
+                                                    <svg className="w-5 h-5" fill={isInWishlist(college['College Name']) ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                    </svg>
+                                                </button>
+                                            </td>
                                             {Object.values(college).map((val, idx) => (
                                                 <td key={idx} className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                                                     {val}

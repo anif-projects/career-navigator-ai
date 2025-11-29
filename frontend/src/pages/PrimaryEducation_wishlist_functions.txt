@@ -1,0 +1,47 @@
+import React, { useState } from 'react';
+import cbseSchools from '../data/schools_cbse.json';
+import stateSchools from '../data/schools_state.json';
+
+const PrimaryEducation = () => {
+    const [activeTab, setActiveTab] = useState('Home');
+    const [syllabusOption, setSyllabusOption] = useState('CBSE Syllabus');
+    const [searchQuery, setSearchQuery] = useState('');
+    const [schoolBoard, setSchoolBoard] = useState('CBSE');
+    const [wishlist, setWishlist] = useState([]);
+
+    React.useEffect(() => {
+        const savedWishlist = JSON.parse(localStorage.getItem('collegeWishlist') || '[]');
+        setWishlist(savedWishlist);
+    }, []);
+
+    const isInWishlist = (schoolName) => {
+        return wishlist.some(item => item.name === schoolName);
+    };
+
+    const toggleWishlist = (school, event) => {
+        if (event) {
+            event.stopPropagation();
+            event.preventDefault();
+        }
+        
+        const schoolName = school['School Name'];
+        let updatedWishlist;
+
+        if (isInWishlist(schoolName)) {
+            updatedWishlist = wishlist.filter(item => item.name !== schoolName);
+        } else {
+            const wishlistItem = {
+                id: `primary-${schoolName}`,
+                name: schoolName,
+                location: school['Location'] || school['City'] || 'N/A',
+                type: school['Type'] || 'Primary',
+                category: 'Primary Education',
+                addedDate: new Date().toISOString()
+            };
+            updatedWishlist = [...wishlist, wishlistItem];
+        }
+
+        setWishlist(updatedWishlist);
+        localStorage.setItem('collegeWishlist', JSON.stringify(updatedWishlist));
+        window.dispatchEvent(new Event('wishlistUpdated'));
+    };

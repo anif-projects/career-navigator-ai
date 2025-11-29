@@ -251,31 +251,26 @@ const Undergraduate = () => {
                                 </div>
                             </div>
 
-                            <div className="overflow-hidden border border-gray-200 rounded-xl shadow-sm bg-white">
-                                <div className="overflow-x-auto">
+                            <div className="overflow-hidden border border-gray-200 rounded-xl shadow-sm bg-white max-w-full">
+                                <div className="overflow-x-auto max-w-full">
                                     <table className="min-w-full divide-y divide-gray-200">
                                         <thead className="bg-gray-50">
                                             <tr>
+                                                <th className="px-6 py-4 text-center text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap sticky left-0 bg-gray-50 z-10">
+                                                    ❤️
+                                                </th>
                                                 {undergraduateColleges.length > 0 && Object.keys(undergraduateColleges[0]).map((key) => (
                                                     <th key={key} className="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
                                                         {key}
                                                     </th>
                                                 ))}
-                                                <th className="px-6 py-4 text-center text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
-                                                    Wishlist
-                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody className="bg-white divide-y divide-gray-200">
                                             {filteredColleges.length > 0 ? (
                                                 filteredColleges.map((college, index) => (
                                                     <tr key={index} className="hover:bg-blue-50/50 transition-colors duration-150">
-                                                        {Object.values(college).map((val, idx) => (
-                                                            <td key={idx} className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                                                                {val}
-                                                            </td>
-                                                        ))}
-                                                        <td className="px-6 py-4 whitespace-nowrap text-center">
+                                                        <td className="px-6 py-4 whitespace-nowrap text-center sticky left-0 bg-white z-10">
                                                             <button
                                                                 onClick={() => toggleWishlist(college)}
                                                                 className={`p-2 rounded-lg transition-all ${isInWishlist(college['College Name'])
@@ -289,6 +284,11 @@ const Undergraduate = () => {
                                                                 </svg>
                                                             </button>
                                                         </td>
+                                                        {Object.values(college).map((val, idx) => (
+                                                            <td key={idx} className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                                                                {val}
+                                                            </td>
+                                                        ))}
                                                     </tr>
                                                 ))
                                             ) : (

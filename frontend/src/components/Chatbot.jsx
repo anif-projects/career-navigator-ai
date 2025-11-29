@@ -223,7 +223,7 @@ const Chatbot = ({ isEmbedded = false }) => {
                         </button>
                     </div>
                     <div className="text-center mt-3">
-                        <p className="text-xs text-gray-400">Powered by Gemini AI</p>
+                        <p className="text-xs text-gray-400">Powered by Career Navigator AI</p>
                     </div>
                 </div>
             </div>
@@ -356,7 +356,7 @@ const Chatbot = ({ isEmbedded = false }) => {
                             </button>
                         </div>
                         <div className="text-center mt-2">
-                            <p className="text-[10px] text-gray-400">Powered by Gemini AI</p>
+                            <p className="text-[10px] text-gray-400">Powered by Career Navigator AI</p>
                         </div>
                     </div>
                 </div>
