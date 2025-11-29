@@ -136,5 +136,74 @@
             },
             "motivational_note": "Hayan, your passion for coding and strong math skills are excellent foundations for a thriving career in the IT sector. Keep exploring, building, and learning \u2013 the digital world awaits your innovative contributions!"
         }
+    },
+    {
+        "id": 3,
+        "username": "haniya",
+        "timestamp": "2025-11-29T22:18:29.251329",
+        "request": {
+            "name": "haniya",
+            "username": "haniya",
+            "qualification": "Class 10 (SSC)",
+            "subjects": "maths",
+            "interests": "coding",
+            "skills": "",
+            "preferred_sector": "",
+            "preferred_role_type": null
+        },
+        "result": {
+            "profile_analysis": {
+                "strengths": [
+                    "Strong foundation in Mathematics",
+                    "Interest and potential in Coding",
+                    "Open-mindedness to various career paths"
+                ],
+                "potential": "Haniya demonstrates a strong aptitude for logical thinking and problem-solving, evident from their interest in mathematics and coding. This combination opens doors to a wide range of careers in technology and data-driven fields, as well as traditional roles that value analytical skills. Their willingness to explore different sectors and job types suggests adaptability and a proactive approach to career development."
+            },
+            "recommendations": [
+                {
+                    "role": "Software Developer",
+                    "fit_reason": "Leverages strong math skills for logical problem-solving and directly utilizes coding interests. High demand in the private sector.",
+                    "icon": "\ud83d\udcbb"
+                },
+                {
+                    "role": "Data Analyst",
+                    "fit_reason": "Combines mathematical prowess with the ability to process and interpret data, often involving coding for analysis. Applicable in both private and government sectors.",
+                    "icon": "\ud83d\udcca"
+                },
+                {
+                    "role": "Web Developer",
+                    "fit_reason": "A practical application of coding skills, focusing on building interactive and functional websites. Offers ample opportunities in the private sector.",
+                    "icon": "\ud83c\udf10"
+                }
+            ],
+            "roadmap": {
+                "title": "Roadmap for Software Developer",
+                "steps": [
+                    {
+                        "phase": "Phase 1: Foundation",
+                        "details": [
+                            "Focus on excelling in Mathematics and Science subjects in Class 11 and 12 (if pursuing further education).",
+                            "Start learning foundational programming concepts through online tutorials and beginner courses (e.g., Python, Java)."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 2: Skill Building",
+                        "details": [
+                            "Enroll in a relevant diploma or degree program (e.g., Computer Science, IT, Software Engineering) after Class 10/12.",
+                            "Deepen coding skills, explore different programming languages and frameworks, and work on personal projects."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 3: Career Launch",
+                        "details": [
+                            "Build a strong portfolio of projects to showcase skills to potential employers.",
+                            "Actively seek internships or entry-level developer positions to gain practical experience."
+                        ]
+                    }
+                ]
+            },
+            "motivational_note": "Haniya, your passion for math and coding is a fantastic foundation for a future in technology. Embrace continuous learning, build your skills, and you'll unlock exciting career opportunities!"
+        }
     }
 ]

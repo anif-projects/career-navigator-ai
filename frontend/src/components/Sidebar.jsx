@@ -5,6 +5,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     const navigate = useNavigate();
     const username = localStorage.getItem('username');
     const [expandedMenu, setExpandedMenu] = useState('Education');
+    const [hoveredItem, setHoveredItem] = useState(null);
 
     const menuItems = [
         { name: 'Home', icon: '🏠' },
@@ -61,12 +62,14 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                 <p className="text-sm mt-1 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Welcome, {username}</p>
             </div>
 
-            <nav className="flex-1 overflow-y-auto py-4">
+            <nav className="flex-1 overflow-y-auto overflow-x-hidden py-4">
                 <ul className="space-y-1">
-                    {menuItems.map((item) => (
-                        <li key={item.name}>
+                    {menuItems.map((item, index) => (
+                        <li key={item.name} className="relative">
                             <button
                                 onClick={() => handleMenuClick(item)}
+                                onMouseEnter={() => setHoveredItem(index)}
+                                onMouseLeave={() => setHoveredItem(null)}
                                 className={`w-full flex items-center justify-between px-6 py-3 text-left transition-colors ${activeTab === item.name && !item.subItems
                                     ? 'bg-blue-50 text-primary border-r-4 border-primary font-semibold'
                                     : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 hover:pl-7 transition-all duration-300'
@@ -82,6 +85,14 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                                     </span>
                                 )}
                             </button>
+
+                            {/* Floating Tooltip on Hover */}
+                            {hoveredItem === index && !item.subItems && (
+                                <div className="absolute left-full ml-2 top-0 bg-gray-900 text-white text-xs px-3 py-1.5 rounded-md shadow-lg whitespace-nowrap z-50 pointer-events-none animate-fadeIn">
+                                    {item.name}
+                                    <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-gray-900"></div>
+                                </div>
+                            )}
 
                             {/* Sub-menu items */}
                             {item.subItems && expandedMenu === item.name && (
@@ -114,6 +125,23 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                     Logout
                 </button>
             </div>
+
+            {/* Add fadeIn animation */}
+            <style jsx>{`
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        transform: translateX(-5px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateX(0);
+                    }
+                }
+                .animate-fadeIn {
+                    animation: fadeIn 0.2s ease-out;
+                }
+            `}</style>
         </div>
     );
 };
