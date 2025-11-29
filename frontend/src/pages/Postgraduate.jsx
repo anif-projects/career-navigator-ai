@@ -212,7 +212,7 @@ const Postgraduate = () => {
                     {activeTab === 'Home' && (
                         <div className="animate-fadeIn space-y-8">
                             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
-                                <h2 className="text-lg font-bold text-blue-900 mb-2">Postgraduation: Elevate Your Education</h2>
+                                <h2 className="text-2xl font-bold text-blue-900 mb-2">Postgraduation: Elevate Your Education</h2>
                                 <p className="text-sm text-blue-800 leading-relaxed">
                                     Postgraduation allows you to gain deeper knowledge, specialize in a field, and engage in research.
                                 </p>
@@ -244,7 +244,7 @@ const Postgraduate = () => {
                     {activeTab === 'Streams' && (
                         <div className="animate-fadeIn">
                             <h2 className="text-2xl font-bold text-gray-900 mb-6">Explore Streams</h2>
-                            <div className="flex flex-wrap gap-4 mb-8">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
                                 {[
                                     "Academic Master's Degrees",
                                     "Professional Master's Degrees",
@@ -257,10 +257,10 @@ const Postgraduate = () => {
                                         key={option}
                                         onClick={() => setStreamSection(option)}
                                         className={`
-                                            px-6 py-2 rounded-full text-sm font-bold transition-all duration-200 border
+                                            w-full px-4 py-3 rounded-xl text-sm font-bold transition-all duration-200 border text-center
                                             ${streamSection === option
-                                                ? 'bg-blue-600 text-white border-blue-600 shadow-md'
-                                                : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'
+                                                ? 'bg-blue-600 text-white border-blue-600 shadow-md ring-2 ring-blue-200 ring-offset-2'
+                                                : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600 hover:shadow-sm'
                                             }
                                         `}
                                     >
@@ -285,7 +285,7 @@ const Postgraduate = () => {
                     {activeTab === 'Scholarship' && (
                         <div className="animate-fadeIn">
                             <div className="text-center mb-10">
-                                <h2 className="text-3xl font-bold text-gray-900">Scholarship Opportunities</h2>
+                                <h2 className="text-2xl font-bold text-gray-900">Scholarship Opportunities</h2>
                                 <p className="text-gray-500 mt-2">Financial support for your postgraduate journey</p>
                             </div>
 

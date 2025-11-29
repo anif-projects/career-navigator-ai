@@ -18,7 +18,14 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                 { name: 'Postgraduate', id: 'Postgraduate' }
             ]
         },
-        { name: 'Career Path', icon: '🚀' },
+        {
+            name: 'Career Path',
+            icon: '🚀',
+            subItems: [
+                { name: 'After 10th', id: 'CareerPath-Secondary' },
+                { name: 'After Intermediate', id: 'CareerPath-Undergraduate' }
+            ]
+        },
         { name: 'Chat Bot', icon: '🤖' },
     ];
 
@@ -39,7 +46,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
         <div className="w-64 bg-white h-screen shadow-lg flex flex-col fixed left-0 top-0 z-50">
             <div className="p-6 border-b">
                 <h2 className="text-xl font-bold text-primary">Career Navigator</h2>
-                <p className="text-sm text-gray-500 mt-1">Welcome, {username}</p>
+                <p className="text-sm text-gray-500 mt-1 font-bold">Welcome, {username}</p>
             </div>
 
             <nav className="flex-1 overflow-y-auto py-4">
@@ -90,7 +97,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
             <div className="p-4 border-t">
                 <button
                     onClick={handleLogout}
-                    className="w-full py-2 px-4 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors font-medium"
+                    className="w-full py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
                 >
                     Logout
                 </button>
