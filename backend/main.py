@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import auth, chat, content
+from routers import auth, chat, content, assessment, upload
 
 app = FastAPI(title="Career Navigator API")
 
@@ -22,6 +22,8 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(chat.router)
 app.include_router(content.router)
+app.include_router(assessment.router)
+app.include_router(upload.router)
 
 @app.get("/")
 def read_root():

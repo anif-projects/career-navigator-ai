@@ -23,7 +23,9 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
             icon: '🚀',
             subItems: [
                 { name: 'After 10th', id: 'CareerPath-Secondary' },
-                { name: 'After Intermediate', id: 'CareerPath-Undergraduate' }
+                { name: 'After Intermediate', id: 'CareerPath-Undergraduate' },
+                { name: 'Resume Builder', id: 'Resume Builder' },
+                { name: 'Career Assessment', id: 'Career Assessment' }
             ]
         },
         { name: 'Chat Bot', icon: '🤖' },

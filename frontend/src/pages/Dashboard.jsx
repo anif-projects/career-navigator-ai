@@ -8,6 +8,9 @@ import CareerPath from './CareerPath';
 import Settings from './Settings';
 import Chatbot from '../components/Chatbot';
 import ThemeShowcase from './ThemeShowcase';
+import CareerAssessment from './CareerAssessment';
+import ResumeBuilder from './ResumeBuilder';
+import Wishlist from './Wishlist';
 
 const Dashboard = () => {
     const [activeTab, setActiveTab] = useState('Home');
@@ -43,22 +46,15 @@ const Dashboard = () => {
                                             AI-Powered Career Guidance
                                         </div>
                                     </div>
-                                    <div className="flex flex-wrap gap-2">
+                                    <div className="absolute top-4 right-4">
                                         <button
-                                            onClick={() => setActiveTab('Career Path')}
-                                            className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-4 py-1.5 rounded-lg font-bold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2 text-xs"
+                                            onClick={() => setActiveTab('Settings')}
+                                            className="p-2 rounded-full bg-white/50 hover:bg-white text-indigo-600 transition-all duration-300 shadow-sm hover:shadow-md"
+                                            title="Profile Settings"
                                         >
-                                            Start Journey
-                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
-                                        </button>
-                                        <button className="px-4 py-1.5 rounded-lg font-bold text-gray-600 border border-gray-200 hover:bg-gray-50 transition-all duration-300 text-xs">
-                                            View Profile
-                                        </button>
-                                        <button
-                                            onClick={() => setActiveTab('Theme Showcase')}
-                                            className="px-4 py-1.5 rounded-lg font-bold text-indigo-600 border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 transition-all duration-300 text-xs"
-                                        >
-                                            🎨 Themes
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -73,23 +69,104 @@ const Dashboard = () => {
                                         <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-teal-400 to-emerald-500 flex items-center justify-center shadow-lg shadow-teal-200 text-white text-xl">
                                             📊
                                         </div>
-                                        <span className="bg-white/60 text-teal-700 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide border border-teal-100 backdrop-blur-sm">On Track</span>
+                                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide border backdrop-blur-sm ${(() => {
+                                            const username = localStorage.getItem('username');
+                                            const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                            let completed = 0;
+                                            if (username) completed += 1;
+                                            if (savedData.email) completed += 1;
+                                            if (savedData.phone) completed += 1;
+                                            if (savedData.location) completed += 1;
+                                            if (savedData.resumeUploaded) completed += 1;
+                                            const percentage = (completed / 5) * 100;
+                                            return percentage === 100
+                                                ? 'bg-emerald-100 text-emerald-700 border-emerald-200'
+                                                : 'bg-white/60 text-teal-700 border-teal-100';
+                                        })()
+                                            }`}>
+                                            {(() => {
+                                                const username = localStorage.getItem('username');
+                                                const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                                let completed = 0;
+                                                if (username) completed += 1;
+                                                if (savedData.email) completed += 1;
+                                                if (savedData.phone) completed += 1;
+                                                if (savedData.location) completed += 1;
+                                                if (savedData.resumeUploaded) completed += 1;
+                                                return (completed / 5) * 100 === 100 ? 'Completed' : 'On Track';
+                                            })()}
+                                        </span>
                                     </div>
                                     <h3 className="text-teal-700 text-[10px] font-bold uppercase tracking-widest mb-0.5">Profile Status</h3>
                                     <div className="flex items-baseline gap-1.5 mb-1">
-                                        <span className="text-3xl font-black text-gray-800">85%</span>
+                                        <span className="text-3xl font-black text-gray-800">
+                                            {(() => {
+                                                const username = localStorage.getItem('username');
+                                                const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                                let completed = 0;
+                                                if (username) completed += 1;
+                                                if (savedData.email) completed += 1;
+                                                if (savedData.phone) completed += 1;
+                                                if (savedData.location) completed += 1;
+                                                if (savedData.resumeUploaded) completed += 1;
+                                                return (completed / 5) * 100;
+                                            })()}%
+                                        </span>
                                         <span className="text-xs text-teal-700 font-medium">Complete</span>
                                     </div>
-                                    <p className="text-[10px] text-teal-800/70 leading-relaxed">Complete your profile to unlock personalized AI recommendations.</p>
+                                    <p className="text-[10px] text-teal-800/70 leading-relaxed">
+                                        {(() => {
+                                            const username = localStorage.getItem('username');
+                                            const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                            let completed = 0;
+                                            if (username) completed += 1;
+                                            if (savedData.email) completed += 1;
+                                            if (savedData.phone) completed += 1;
+                                            if (savedData.location) completed += 1;
+                                            if (savedData.resumeUploaded) completed += 1;
+                                            const percentage = (completed / 5) * 100;
+                                            if (percentage === 100) return "Great job! Your profile is fully updated.";
+                                            if (percentage >= 60) return "Almost there! Add a few more details.";
+                                            return "Complete your profile to unlock personalized AI recommendations.";
+                                        })()}
+                                    </p>
                                 </div>
 
                                 <div className="mt-2">
                                     <div className="flex justify-between text-[10px] font-semibold text-teal-800/70 mb-1">
                                         <span>Progress</span>
-                                        <span className="text-teal-700">Almost there!</span>
+                                        <span className="text-teal-700">
+                                            {(() => {
+                                                const username = localStorage.getItem('username');
+                                                const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                                let completed = 0;
+                                                if (username) completed += 1;
+                                                if (savedData.email) completed += 1;
+                                                if (savedData.phone) completed += 1;
+                                                if (savedData.location) completed += 1;
+                                                if (savedData.resumeUploaded) completed += 1;
+                                                const percentage = (completed / 5) * 100;
+                                                return percentage === 100 ? 'All Set!' : 'Keep Going!';
+                                            })()}
+                                        </span>
                                     </div>
                                     <div className="w-full bg-white/50 rounded-full h-1.5 overflow-hidden p-[1px]">
-                                        <div className="bg-gradient-to-r from-teal-400 to-emerald-500 h-full rounded-full w-[85%] shadow-sm relative overflow-hidden">
+                                        <div
+                                            className="bg-gradient-to-r from-teal-400 to-emerald-500 h-full rounded-full shadow-sm relative overflow-hidden transition-all duration-1000 ease-out"
+                                            style={{
+                                                width: `${(() => {
+                                                    const username = localStorage.getItem('username');
+                                                    const savedData = JSON.parse(localStorage.getItem('profileData') || '{}');
+                                                    let completed = 0;
+                                                    if (username) completed += 1;
+                                                    if (savedData.email) completed += 1;
+                                                    if (savedData.phone) completed += 1;
+                                                    if (savedData.location) completed += 1;
+                                                    if (savedData.resumeUploaded) completed += 1;
+                                                    return (completed / 5) * 100;
+                                                })()}%`
+                                            }}
+                                        >
                                             <div className="absolute inset-0 bg-white/30 w-full h-full animate-[shimmer_2s_infinite]"></div>
                                         </div>
                                     </div>
@@ -108,7 +185,10 @@ const Dashboard = () => {
                                         <p className="text-lg font-bold leading-tight mb-1 text-gray-800">Take Career Assessment</p>
                                         <p className="text-gray-600 text-[10px]">Discover your true potential with AI.</p>
                                     </div>
-                                    <button className="mt-2 w-full bg-white text-rose-600 py-2 rounded-lg font-bold hover:bg-rose-50 transition-colors shadow-sm text-xs flex items-center justify-center gap-1.5 group-hover:shadow-md">
+                                    <button
+                                        onClick={() => setActiveTab('Career Assessment')}
+                                        className="mt-2 w-full bg-white text-rose-600 py-2 rounded-lg font-bold hover:bg-rose-50 transition-colors shadow-sm text-xs flex items-center justify-center gap-1.5 group-hover:shadow-md"
+                                    >
                                         Start Now
                                         <span className="text-base">→</span>
                                     </button>
@@ -124,17 +204,22 @@ const Dashboard = () => {
                                             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center shadow-lg shadow-red-200 text-white text-xl">
                                                 🏛️
                                             </div>
-                                            <div className="w-6 h-6 rounded-full bg-white/60 flex items-center justify-center text-red-400 hover:bg-white hover:text-red-600 transition-colors cursor-pointer backdrop-blur-sm">
-                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" /></svg>
-                                            </div>
                                         </div>
                                         <h3 className="text-red-600 text-[10px] font-bold uppercase tracking-widest mb-0.5">Wishlist</h3>
                                         <div className="flex items-baseline gap-1.5">
-                                            <span className="text-2xl font-black text-gray-800">0</span>
+                                            <span className="text-2xl font-black text-gray-800">
+                                                {(() => {
+                                                    const wishlist = JSON.parse(localStorage.getItem('collegeWishlist') || '[]');
+                                                    return wishlist.length;
+                                                })()}
+                                            </span>
                                             <span className="text-xs text-red-700">Colleges</span>
                                         </div>
                                     </div>
-                                    <button className="mt-2 w-full bg-white text-red-600 py-2 rounded-lg font-bold hover:bg-red-50 transition-colors shadow-sm text-xs flex items-center justify-center gap-1.5 group-hover:shadow-md">
+                                    <button
+                                        onClick={() => setActiveTab('Wishlist')}
+                                        className="mt-2 w-full bg-white text-red-600 py-2 rounded-lg font-bold hover:bg-red-50 transition-colors shadow-sm text-xs flex items-center justify-center gap-1.5 group-hover:shadow-md"
+                                    >
                                         View Wishlist
                                         <span className="text-base">→</span>
                                     </button>
@@ -152,7 +237,10 @@ const Dashboard = () => {
                                         <h3 className="text-blue-600 text-[10px] font-bold uppercase tracking-widest mb-0.5">Quick Tools</h3>
                                         <p className="text-lg font-bold mb-2 text-gray-800">Resume Builder</p>
                                     </div>
-                                    <button className="w-full py-2 rounded-lg border border-blue-200 bg-white text-blue-600 hover:bg-blue-50 transition-colors text-xs font-semibold flex items-center justify-center gap-2 shadow-sm">
+                                    <button
+                                        onClick={() => setActiveTab('Resume Builder')}
+                                        className="w-full py-2 rounded-lg border border-blue-200 bg-white text-blue-600 hover:bg-blue-50 transition-colors text-xs font-semibold flex items-center justify-center gap-2 shadow-sm"
+                                    >
                                         Create Resume
                                     </button>
                                 </div>
@@ -213,6 +301,8 @@ const Dashboard = () => {
                 return <CareerPath level="secondary" />;
             case 'CareerPath-Undergraduate':
                 return <CareerPath level="undergraduate" />;
+            case 'Career Assessment':
+                return <CareerAssessment />;
             case 'Chat Bot':
                 return (
                     <div className="max-w-4xl mx-auto h-[calc(100vh-8rem)] flex flex-col">
@@ -222,6 +312,10 @@ const Dashboard = () => {
                 );
             case 'Settings':
                 return <Settings />;
+            case 'Resume Builder':
+                return <ResumeBuilder />;
+            case 'Wishlist':
+                return <Wishlist />;
             case 'Theme Showcase':
                 return <ThemeShowcase />;
             default:

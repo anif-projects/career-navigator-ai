@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "username": "ravi",
+        "timestamp": "2025-11-29T19:36:40.812349",
+        "request": {
+            "name": "ravi",
+            "username": "ravi",
+            "qualification": "Class 11-12 (Intermediate)",
+            "subjects": "maths",
+            "interests": "problem solving",
+            "skills": "Leadership",
+            "preferred_sector": "Government IAS"
+        },
+        "result": {
+            "profile_analysis": {
+                "strengths": [
+                    "Strong foundation in Mathematics",
+                    "Analytical and problem-solving mindset",
+                    "Leadership potential"
+                ],
+                "potential": "Ravi demonstrates a strong aptitude for analytical thinking and leadership, crucial for demanding roles. His preference for mathematics and problem-solving aligns well with careers requiring logical reasoning and strategic decision-making. His ambition for the government sector, particularly IAS, suggests a desire for impactful public service and a commitment to structured career progression."
+            },
+            "recommendations": [
+                {
+                    "role": "Indian Administrative Service (IAS) Officer",
+                    "fit_reason": "Directly aligns with his preferred sector and ambition. The role requires strong analytical skills, problem-solving, and leadership, all of which Ravi possesses. Mathematics background will be highly beneficial for quantitative aspects of policy and administration.",
+                    "icon": "\ud83c\udfdb\ufe0f"
+                },
+                {
+                    "role": "Data Scientist",
+                    "fit_reason": "Leverages his math skills and problem-solving interests. This role involves analyzing complex data to solve real-world problems, a direct application of his strengths. Leadership skills can be valuable for leading data analysis teams.",
+                    "icon": "\ud83d\udcca"
+                },
+                {
+                    "role": "Management Consultant",
+                    "fit_reason": "Requires strong problem-solving and analytical skills to advise businesses. His leadership ability will be an asset in managing client relationships and project teams. The structured nature of consulting can appeal to his preference for defined paths.",
+                    "icon": "\ud83d\udcc8"
+                }
+            ],
+            "roadmap": {
+                "title": "Roadmap for Indian Administrative Service (IAS) Officer",
+                "steps": [
+                    {
+                        "phase": "Phase 1: Foundation",
+                        "details": [
+                            "Excel in Class 11-12 with a focus on subjects that build analytical and logical reasoning (e.g., Economics, Commerce, alongside Maths).",
+                            "Develop a strong understanding of current affairs and national/international issues through regular reading of newspapers and reputable news sources."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 2: Skill Building",
+                        "details": [
+                            "Pursue a Bachelor's degree in a discipline that complements IAS preparation (e.g., Political Science, Economics, Public Administration, or even a STEM field to leverage mathematical aptitude).",
+                            "Actively participate in college leadership roles, debates, and extra-curricular activities to hone leadership and communication skills."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 3: Career Launch",
+                        "details": [
+                            "Begin systematic preparation for the UPSC Civil Services Exam, focusing on both General Studies and a chosen optional subject.",
+                            "Develop effective study strategies, join coaching classes if needed, and engage in mock tests and answer writing practice to refine exam techniques."
+                        ]
+                    }
+                ]
+            },
+            "motivational_note": "Your passion for math and problem-solving, combined with your leadership skills, provides a powerful foundation for achieving your aspirations. Stay focused, persistent, and believe in your ability to make a significant impact."
+        }
+    },
+    {
+        "id": 2,
+        "username": "ravi",
+        "timestamp": "2025-11-29T20:09:31.974197",
+        "request": {
+            "name": "hayan",
+            "username": "ravi",
+            "qualification": "Class 10 (SSC)",
+            "subjects": "maths",
+            "interests": "coding",
+            "skills": "",
+            "preferred_sector": "IT",
+            "preferred_role_type": "Private Sector (MNCs, Startups)"
+        },
+        "result": {
+            "profile_analysis": {
+                "strengths": [
+                    "Strong aptitude for Mathematics",
+                    "Passion for Coding",
+                    "Interest in the IT Sector",
+                    "Preference for Private Sector roles (MNCs, Startups)"
+                ],
+                "potential": "Hayan shows significant potential for a career in the IT sector, particularly in roles that leverage strong analytical skills and technical proficiency in coding. Their foundational interest in math combined with a passion for coding provides a solid base for various software development and data-related roles within both established multinational corporations and innovative startups."
+            },
+            "recommendations": [
+                {
+                    "role": "Software Developer Intern",
+                    "fit_reason": "This entry-level role is ideal for someone with a strong interest in coding and mathematics. It provides hands-on experience in building software, allowing them to apply and develop their coding skills in a real-world IT environment, which aligns perfectly with their preferred sector and company types.",
+                    "icon": "\ud83d\udcbb"
+                },
+                {
+                    "role": "Junior Web Developer",
+                    "fit_reason": "Web development is a highly in-demand field within the IT sector, and it directly utilizes coding skills. This role offers opportunities to create interactive websites and applications, appealing to their interest in practical application of coding, and is abundant in both startups and MNCs.",
+                    "icon": "\ud83c\udf10"
+                },
+                {
+                    "role": "Data Analyst (Entry-Level)",
+                    "fit_reason": "The strong foundation in mathematics makes data analysis a natural fit. This role involves interpreting data, identifying trends, and using analytical skills, which are transferable from their favorite subject and can be applied using programming languages, bridging their math aptitude with their coding interest.",
+                    "icon": "\ud83d\udcca"
+                }
+            ],
+            "roadmap": {
+                "title": "Roadmap for Software Developer Intern",
+                "steps": [
+                    {
+                        "phase": "Phase 1: Foundation",
+                        "details": [
+                            "Complete Class 12 with a focus on Mathematics, Physics, and Computer Science.",
+                            "Start learning fundamental programming languages like Python, Java, or C++ through online courses (e.g., Coursera, edX, freeCodeCamp)."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 2: Skill Building",
+                        "details": [
+                            "Build a portfolio of personal coding projects showcasing different skills and problem-solving abilities.",
+                            "Gain knowledge of data structures, algorithms, and basic software development principles. Consider participating in coding challenges and hackathons."
+                        ]
+                    },
+                    {
+                        "phase": "Phase 3: Career Launch",
+                        "details": [
+                            "Pursue a Bachelor's degree in Computer Science, Software Engineering, or a related IT field.",
+                            "Actively apply for Software Developer Intern positions in MNCs and startups, leveraging your portfolio and academic knowledge."
+                        ]
+                    }
+                ]
+            },
+            "motivational_note": "Hayan, your passion for coding and strong math skills are excellent foundations for a thriving career in the IT sector. Keep exploring, building, and learning \u2013 the digital world awaits your innovative contributions!"
+        }
+    }
+]

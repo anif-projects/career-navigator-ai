@@ -25,6 +25,39 @@ const Undergraduate = () => {
     const [activeTab, setActiveTab] = useState('Home');
     const [streamSection, setStreamSection] = useState('Engineering');
     const [searchQuery, setSearchQuery] = useState('');
+    const [wishlist, setWishlist] = useState([]);
+
+    React.useEffect(() => {
+        const savedWishlist = JSON.parse(localStorage.getItem('collegeWishlist') || '[]');
+        setWishlist(savedWishlist);
+    }, []);
+
+    const isInWishlist = (collegeName) => {
+        return wishlist.some(item => item.name === collegeName);
+    };
+
+    const toggleWishlist = (college) => {
+        let updatedWishlist;
+        const collegeId = `undergraduate-${college['College Name']}`;
+
+        if (isInWishlist(college['College Name'])) {
+            updatedWishlist = wishlist.filter(item => item.name !== college['College Name']);
+        } else {
+            const wishlistItem = {
+                id: collegeId,
+                name: college['College Name'],
+                location: college['Location'] || college['City'] || 'N/A',
+                type: college['Type'] || 'Undergraduate',
+                category: 'Undergraduate',
+                addedDate: new Date().toISOString()
+            };
+            updatedWishlist = [...wishlist, wishlistItem];
+        }
+
+        setWishlist(updatedWishlist);
+        localStorage.setItem('collegeWishlist', JSON.stringify(updatedWishlist));
+        window.dispatchEvent(new Event('wishlistUpdated'));
+    };
 
     const tabs = [
         'Home', 'Streams', 'College List', 'Scholarship', 'Job Opportunities', 'Career Opportunities'
@@ -228,6 +261,9 @@ const Undergraduate = () => {
                                                         {key}
                                                     </th>
                                                 ))}
+                                                <th className="px-6 py-4 text-center text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
+                                                    Wishlist
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody className="bg-white divide-y divide-gray-200">
@@ -239,6 +275,20 @@ const Undergraduate = () => {
                                                                 {val}
                                                             </td>
                                                         ))}
+                                                        <td className="px-6 py-4 whitespace-nowrap text-center">
+                                                            <button
+                                                                onClick={() => toggleWishlist(college)}
+                                                                className={`p-2 rounded-lg transition-all ${isInWishlist(college['College Name'])
+                                                                        ? 'bg-red-50 text-red-600 hover:bg-red-100'
+                                                                        : 'bg-gray-50 text-gray-400 hover:bg-red-50 hover:text-red-600'
+                                                                    }`}
+                                                                title={isInWishlist(college['College Name']) ? 'Remove from wishlist' : 'Add to wishlist'}
+                                                            >
+                                                                <svg className="w-5 h-5" fill={isInWishlist(college['College Name']) ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                                </svg>
+                                                            </button>
+                                                        </td>
                                                     </tr>
                                                 ))
                                             ) : (
