@@ -47,7 +47,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
         <div className="w-64 bg-white h-screen shadow-lg flex flex-col fixed left-0 top-0 z-50">
             <div className="p-6 border-b">
                 <h2 className="text-xl font-bold text-primary">Career Navigator</h2>
-                <p className="text-sm text-gray-500 mt-1 font-bold">Welcome, {username}</p>
+                <p className="text-sm mt-1 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Welcome, {username}</p>
             </div>
 
             <nav className="flex-1 overflow-y-auto py-4">
@@ -58,7 +58,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                                 onClick={() => handleMenuClick(item)}
                                 className={`w-full flex items-center justify-between px-6 py-3 text-left transition-colors ${activeTab === item.name && !item.subItems
                                     ? 'bg-blue-50 text-primary border-r-4 border-primary font-semibold'
-                                    : 'text-gray-600 hover:bg-gray-50'
+                                    : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 hover:pl-7 transition-all duration-300'
                                     }`}
                             >
                                 <div className="flex items-center">

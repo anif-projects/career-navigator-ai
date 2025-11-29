@@ -207,7 +207,7 @@ const PrimaryEducation = () => {
                     {activeTab === 'Home' && (
                         <div className="animate-fadeIn space-y-8">
                             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-100">
-                                <h2 className="text-xl font-bold text-blue-900 mb-2">🎓 SSC (Grade 10) Education</h2>
+                                <h2 className="text-lg font-bold text-blue-900 mb-2">🎓 SSC (Grade 10) Education</h2>
                                 <p className="text-sm text-blue-800 leading-relaxed">
                                     The <strong>Secondary School Certificate (SSC)</strong> is a pivotal milestone, marking the completion of
                                     <strong> Grade 10</strong>. It lays the groundwork for your future academic and career choices.

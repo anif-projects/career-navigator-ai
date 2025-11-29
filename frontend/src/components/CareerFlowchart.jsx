@@ -1,31 +1,8 @@
-import React, { useState, useEffect } from 'react';
-
-
+import React from 'react';
 
 const CareerFlowchart = ({ data, title = "What Next ?", subTitle = "After 10th class" }) => {
-    const [viewMode, setViewMode] = useState('overview'); // Default to overview as per latest request
-
     // Use the passed data
     const rootData = data;
-
-    // --- Drill-down Logic ---
-    const [path, setPath] = useState([rootData]);
-    const currentNode = path[path.length - 1];
-
-    // Reset path when data changes (e.g. switching between 10th and Intermediate)
-    useEffect(() => {
-        setPath([data]);
-    }, [data]);
-
-    const handleNodeClick = (node) => {
-        if (node.children && node.children.length > 0) {
-            setPath([...path, node]);
-        }
-    };
-
-    const handleBreadcrumbClick = (index) => {
-        setPath(path.slice(0, index + 1));
-    };
 
     // --- Column View Logic ---
     const renderColumnView = () => (
@@ -131,120 +108,17 @@ const CareerFlowchart = ({ data, title = "What Next ?", subTitle = "After 10th c
     return (
         <div className="w-full p-6 bg-white rounded-xl border border-gray-100 shadow-sm min-h-[600px] flex flex-col">
 
-            {/* Header & Toggle */}
+            {/* Header */}
             <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-100">
                 <div className="text-center w-full">
                     <h2 className="text-2xl font-bold text-gray-800">{title}</h2>
                     <p className="text-gray-500 text-sm">{subTitle}</p>
                 </div>
-
-                <div className="absolute right-8 flex bg-gray-100 p-1 rounded-lg">
-                    <button
-                        onClick={() => setViewMode('overview')}
-                        className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${viewMode === 'overview' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
-                    >
-                        Column View
-                    </button>
-                    <button
-                        onClick={() => setViewMode('drilldown')}
-                        className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${viewMode === 'drilldown' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
-                    >
-                        Drill-down
-                    </button>
-                </div>
             </div>
 
-            {viewMode === 'drilldown' ? (
-                <>
-                    {/* Breadcrumb Navigation */}
-                    <div className="flex flex-wrap items-center gap-2 mb-8">
-                        {path.map((node, index) => (
-                            <React.Fragment key={index}>
-                                <button
-                                    onClick={() => handleBreadcrumbClick(index)}
-                                    className={`
-                                        px-3 py-1 rounded-lg text-sm font-medium transition-colors
-                                        ${index === path.length - 1
-                                            ? 'bg-blue-100 text-blue-700 cursor-default'
-                                            : 'text-gray-500 hover:bg-gray-100 hover:text-gray-900'
-                                        }
-                                    `}
-                                >
-                                    {node.label}
-                                </button>
-                                {index < path.length - 1 && (
-                                    <span className="text-gray-300">/</span>
-                                )}
-                            </React.Fragment>
-                        ))}
-                    </div>
-
-                    {/* Content Area */}
-                    <div className="flex-1 animate-fadeIn">
-                        <div className="text-center mb-8">
-                            <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                                {currentNode.label === rootData.label ? "Select a Stream" : `Options in ${currentNode.label}`}
-                            </h3>
-                        </div>
-
-                        {currentNode.children ? (
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                                {currentNode.children.map((child, index) => (
-                                    <button
-                                        key={index}
-                                        onClick={() => handleNodeClick(child)}
-                                        className={`
-                                            relative p-6 rounded-xl border-2 text-left transition-all duration-200 group
-                                            ${child.children
-                                                ? 'cursor-pointer hover:shadow-md hover:-translate-y-1 hover:border-blue-300 bg-white border-gray-100'
-                                                : 'cursor-default bg-gray-50 border-gray-100'
-                                            }
-                                        `}
-                                    >
-                                        <div className="flex justify-between items-start mb-2">
-                                            <span className={`
-                                                inline-block p-2 rounded-lg bg-opacity-20 
-                                                ${child.color ? child.color.replace('text-', 'bg-').replace('600', '100') : 'bg-blue-50'}
-                                            `}>
-                                                <span className="text-xl">
-                                                    {child.children ? '📂' : '🎓'}
-                                                </span>
-                                            </span>
-                                            {child.children && (
-                                                <span className="text-gray-300 group-hover:text-blue-400 transition-colors">
-                                                    ➔
-                                                </span>
-                                            )}
-                                        </div>
-                                        <h4 className="font-bold text-gray-800 text-lg mb-1">{child.label}</h4>
-                                        {child.subLabel && (
-                                            <p className="text-sm text-gray-500">{child.subLabel}</p>
-                                        )}
-                                    </button>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="flex flex-col items-center justify-center h-64 text-center bg-gray-50 rounded-2xl border border-dashed border-gray-300">
-                                <div className="text-4xl mb-4">🎉</div>
-                                <h4 className="text-xl font-bold text-gray-800 mb-2">{currentNode.label}</h4>
-                                <p className="text-gray-600 max-w-md">
-                                    Great choice!
-                                </p>
-                                <button
-                                    onClick={() => handleBreadcrumbClick(0)}
-                                    className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-full text-sm font-bold hover:bg-blue-700 transition-colors"
-                                >
-                                    Start Over
-                                </button>
-                            </div>
-                        )}
-                    </div>
-                </>
-            ) : (
-                <div className="animate-fadeIn">
-                    {renderColumnView()}
-                </div>
-            )}
+            <div className="animate-fadeIn">
+                {renderColumnView()}
+            </div>
         </div>
     );
 };
