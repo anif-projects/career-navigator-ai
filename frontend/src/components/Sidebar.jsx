@@ -27,6 +27,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
             ]
         },
         { name: 'Chat Bot', icon: '🤖' },
+        { name: 'Settings', icon: '⚙️' },
     ];
 
     const handleLogout = () => {
