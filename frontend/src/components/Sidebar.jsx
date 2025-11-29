@@ -19,7 +19,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
             ]
         },
         {
-            name: 'Career Path',
+            name: 'Career',
             icon: '🚀',
             subItems: [
                 { name: 'After 10th', id: 'CareerPath-Secondary' },
@@ -39,7 +39,16 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
 
     const handleMenuClick = (item) => {
         if (item.subItems) {
-            setExpandedMenu(expandedMenu === item.name ? null : item.name);
+            // If it's Education or Career menu, navigate to respective hub and expand submenu
+            if (item.name === 'Education') {
+                setActiveTab('Education');
+                setExpandedMenu(expandedMenu === item.name ? null : item.name);
+            } else if (item.name === 'Career') {
+                setActiveTab('Career Path');
+                setExpandedMenu(expandedMenu === item.name ? null : item.name);
+            } else {
+                setExpandedMenu(expandedMenu === item.name ? null : item.name);
+            }
         } else {
             setActiveTab(item.name);
         }

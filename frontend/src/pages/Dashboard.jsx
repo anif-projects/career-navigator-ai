@@ -11,6 +11,8 @@ import ThemeShowcase from './ThemeShowcase';
 import CareerAssessment from './CareerAssessment';
 import ResumeBuilder from './ResumeBuilder';
 import Wishlist from './Wishlist';
+import EducationDashboard from './EducationDashboard';
+import CareerPathDashboard from './CareerPathDashboard';
 
 const Dashboard = () => {
     const [activeTab, setActiveTab] = useState('Home');
@@ -314,6 +316,10 @@ const Dashboard = () => {
                 return <Settings />;
             case 'Resume Builder':
                 return <ResumeBuilder />;
+            case 'Education':
+                return <EducationDashboard setActiveTab={setActiveTab} />;
+            case 'Career Path':
+                return <CareerPathDashboard setActiveTab={setActiveTab} />;
             case 'Wishlist':
                 return <Wishlist />;
             case 'Theme Showcase':
