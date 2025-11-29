@@ -1,0 +1,632 @@
+[
+    {
+        "S.NO": "1",
+        "College Name": "Acharya Nagarjuna University",
+        "Courses": "MBA, MCA, M.Sc, M.Com, M.A",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632346015"
+    },
+    {
+        "S.NO": "2",
+        "College Name": "Government Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632243333"
+    },
+    {
+        "S.NO": "3",
+        "College Name": "Vignan's University",
+        "Courses": "MBA, M.Tech, M.Sc",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632353211"
+    },
+    {
+        "S.NO": "4",
+        "College Name": "Siddhartha Degree College",
+        "Courses": "M.Sc, MA, M.Com",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632222211"
+    },
+    {
+        "S.NO": "5",
+        "College Name": "Prasad V. Potluri Siddhartha Institute of Technology",
+        "Courses": "M.Tech",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632353311"
+    },
+    {
+        "S.NO": "6",
+        "College Name": "Andhra University",
+        "Courses": "M.Sc, MBA, M.Tech, M.Com",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912840401"
+    },
+    {
+        "S.NO": "7",
+        "College Name": "Gayathri Institute of Technology",
+        "Courses": "M.Tech",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912345689"
+    },
+    {
+        "S.NO": "8",
+        "College Name": "GITAM University",
+        "Courses": "MBA, M.Sc, M.Com, M.Tech",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912736945"
+    },
+    {
+        "S.NO": "9",
+        "College Name": "PVPSIT College",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912765432"
+    },
+    {
+        "S.NO": "10",
+        "College Name": "Krishna University",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912578801"
+    },
+    {
+        "S.NO": "11",
+        "College Name": "Sri Venkateswara University",
+        "Courses": "M.Tech, M.Sc, MBA, M.Com",
+        "City": "Tirupati",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8772288062"
+    },
+    {
+        "S.NO": "12",
+        "College Name": "Government Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Ongole",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632303156"
+    },
+    {
+        "S.NO": "13",
+        "College Name": "Prakasam Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Ongole",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632232290"
+    },
+    {
+        "S.NO": "14",
+        "College Name": "St. Xavier's Degree College",
+        "Courses": "M.Com, MBA",
+        "City": "Ongole",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632268802"
+    },
+    {
+        "S.NO": "15",
+        "College Name": "VIT College of Engineering",
+        "Courses": "M.Tech, MBA",
+        "City": "Ongole",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632322527"
+    },
+    {
+        "S.NO": "16",
+        "College Name": "Yogi Vemana University",
+        "Courses": "M.Sc, M.Tech, MBA, M.Com",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Phone No": "8572282803"
+    },
+    {
+        "S.NO": "17",
+        "College Name": "Government Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Phone No": "8572284213"
+    },
+    {
+        "S.NO": "18",
+        "College Name": "Sri Krishnadevaraya University",
+        "Courses": "M.Sc, MBA, M.Tech",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Phone No": "8572285207"
+    },
+    {
+        "S.NO": "19",
+        "College Name": "Pratap College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Phone No": "8572285023"
+    },
+    {
+        "S.NO": "20",
+        "College Name": "St. Ann's Degree College",
+        "Courses": "MBA, M.Sc",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Phone No": "8572284567"
+    },
+    {
+        "S.NO": "21",
+        "College Name": "Andhra University",
+        "Courses": "M.Sc, MBA, M.Tech, M.Com",
+        "City": "Kakinada",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Phone No": "8842380400"
+    },
+    {
+        "S.NO": "22",
+        "College Name": "Pydah College of Engineering",
+        "Courses": "M.Tech, MBA",
+        "City": "Kakinada",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Phone No": "8842305762"
+    },
+    {
+        "S.NO": "23",
+        "College Name": "Gayatri Vidya Parishad College of Engineering",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Kakinada",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Phone No": "8842345365"
+    },
+    {
+        "S.NO": "24",
+        "College Name": "Government Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Rajahmundry",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Phone No": "8842325311"
+    },
+    {
+        "S.NO": "25",
+        "College Name": "St. Mary's College",
+        "Courses": "MBA, M.Sc",
+        "City": "Rajahmundry",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Phone No": "8842386200"
+    },
+    {
+        "S.NO": "26",
+        "College Name": "Acharya Nagarjuna University",
+        "Courses": "MBA, MCA, M.Sc, M.Com, M.A",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632346015"
+    },
+    {
+        "S.NO": "27",
+        "College Name": "Government Degree College",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632243333"
+    },
+    {
+        "S.NO": "28",
+        "College Name": "Vignan's University",
+        "Courses": "MBA, M.Tech, M.Sc",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632353211"
+    },
+    {
+        "S.NO": "29",
+        "College Name": "Siddhartha Degree College",
+        "Courses": "M.Sc, MA, M.Com",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632222211"
+    },
+    {
+        "S.NO": "30",
+        "College Name": "Prasad V. Potluri Siddhartha Institute of Technology",
+        "Courses": "M.Tech",
+        "City": "Guntur",
+        "District": "Guntur",
+        "State": "Andhra Pradesh",
+        "Phone No": "8632353311"
+    },
+    {
+        "S.NO": "31",
+        "College Name": "Andhra University",
+        "Courses": "M.Sc, MBA, M.Tech, M.Com",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912840401"
+    },
+    {
+        "S.NO": "32",
+        "College Name": "Gayathri Institute of Technology",
+        "Courses": "M.Tech",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912345689"
+    },
+    {
+        "S.NO": "33",
+        "College Name": "GITAM University",
+        "Courses": "MBA, M.Sc, M.Com, M.Tech",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912736945"
+    },
+    {
+        "S.NO": "34",
+        "College Name": "PVPSIT College",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912765432"
+    },
+    {
+        "S.NO": "35",
+        "College Name": "Krishna University",
+        "Courses": "M.Sc, M.A, M.Com",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Phone No": "8912578801"
+    },
+    {
+        "S.NO": "36",
+        "College Name": "Kakatiya University",
+        "Courses": "M.A, M.Sc, M.Com, MBA",
+        "City": "Khammam",
+        "District": "Khammam",
+        "State": "Telangana",
+        "Phone No": "8742324004"
+    },
+    {
+        "S.NO": "37",
+        "College Name": "Government Degree College",
+        "Courses": "M.A, M.Sc, M.Com",
+        "City": "Khammam",
+        "District": "Khammam",
+        "State": "Telangana",
+        "Phone No": "8742325056"
+    },
+    {
+        "S.NO": "38",
+        "College Name": "Sri Venkateshwara Degree College",
+        "Courses": "M.Com, MBA, M.Sc",
+        "City": "Khammam",
+        "District": "Khammam",
+        "State": "Telangana",
+        "Phone No": "8742321056"
+    },
+    {
+        "S.NO": "39",
+        "College Name": "Vignan Degree College",
+        "Courses": "MBA, M.Sc",
+        "City": "Khammam",
+        "District": "Khammam",
+        "State": "Telangana",
+        "Phone No": "8742328008"
+    },
+    {
+        "S.NO": "40",
+        "College Name": "Mother Teresa Institute of Science",
+        "Courses": "M.Sc, M.A",
+        "City": "Khammam",
+        "District": "Khammam",
+        "State": "Telangana",
+        "Phone No": "8742329011"
+    },
+    {
+        "S.NO": "41",
+        "College Name": "Kakatiya University",
+        "Courses": "M.A, M.Sc, M.Com, MBA",
+        "City": "Nizamabad",
+        "District": "Nizamabad",
+        "State": "Telangana",
+        "Phone No": "8462901000"
+    },
+    {
+        "S.NO": "42",
+        "College Name": "Government Degree College",
+        "Courses": "M.A, M.Sc, M.Com",
+        "City": "Nizamabad",
+        "District": "Nizamabad",
+        "State": "Telangana",
+        "Phone No": "8462925567"
+    },
+    {
+        "S.NO": "43",
+        "College Name": "Vignan Degree College",
+        "Courses": "MBA, M.Sc",
+        "City": "Nizamabad",
+        "District": "Nizamabad",
+        "State": "Telangana",
+        "Phone No": "8462912345"
+    },
+    {
+        "S.NO": "44",
+        "College Name": "Sreenidhi Institute of Technology",
+        "Courses": "M.Tech, MBA",
+        "City": "Nizamabad",
+        "District": "Nizamabad",
+        "State": "Telangana",
+        "Phone No": "8462921234"
+    },
+    {
+        "S.NO": "45",
+        "College Name": "St. Xavier's College",
+        "Courses": "MBA, M.Sc",
+        "City": "Nizamabad",
+        "District": "Nizamabad",
+        "State": "Telangana",
+        "Phone No": "8462909876"
+    },
+    {
+        "S.NO": "46",
+        "College Name": "Jawaharlal Nehru Technological University (JNTU)",
+        "Courses": "M.Tech, M.Sc, MBA",
+        "City": "Medak",
+        "District": "Medak",
+        "State": "Telangana",
+        "Phone No": "8452365400"
+    },
+    {
+        "S.NO": "47",
+        "College Name": "Government Degree College",
+        "Courses": "M.A, M.Sc, M.Com",
+        "City": "Medak",
+        "District": "Medak",
+        "State": "Telangana",
+        "Phone No": "8452365123"
+    },
+    {
+        "S.NO": "48",
+        "College Name": "St. Mary's Degree College",
+        "Courses": "MBA, M.Sc",
+        "City": "Medak",
+        "District": "Medak",
+        "State": "Telangana",
+        "Phone No": "8452365234"
+    },
+    {
+        "S.NO": "49",
+        "College Name": "Deccan College of Engineering",
+        "Courses": "M.Tech",
+        "City": "Medak",
+        "District": "Medak",
+        "State": "Telangana",
+        "Phone No": "8452366345"
+    },
+    {
+        "S.NO": "50",
+        "College Name": "Vagdevi Degree College",
+        "Courses": "MBA, M.Com",
+        "City": "Medak",
+        "District": "Medak",
+        "State": "Telangana",
+        "Phone No": "8452364456"
+    },
+    {
+        "S.NO": "51",
+        "College Name": "Osmania University",
+        "Courses": "M.A, M.Sc, M.Tech, MBA, M.Com",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-27098011"
+    },
+    {
+        "S.NO": "52",
+        "College Name": "University of Hyderabad",
+        "Courses": "M.Sc, M.Tech, M.A, MBA, M.Com",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23110000"
+    },
+    {
+        "S.NO": "53",
+        "College Name": "JNTU Hyderabad",
+        "Courses": "M.Tech, M.Sc, MBA",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23158661"
+    },
+    {
+        "S.NO": "54",
+        "College Name": "NALSAR University of Law",
+        "Courses": "LLM, Ph.D.",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23498100"
+    },
+    {
+        "S.NO": "55",
+        "College Name": "ICFAI Business School",
+        "Courses": "MBA, M.Sc",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23435131"
+    },
+    {
+        "S.NO": "56",
+        "College Name": "Kakatiya University",
+        "Courses": "M.A, M.Sc, M.Com, MBA",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702439491"
+    },
+    {
+        "S.NO": "57",
+        "College Name": "JNTU College of Engineering",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702430200"
+    },
+    {
+        "S.NO": "58",
+        "College Name": "Maturi Venkata Subba Rao (MVSR) Engineering College",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702434356"
+    },
+    {
+        "S.NO": "59",
+        "College Name": "Sreenidhi Institute of Science and Technology",
+        "Courses": "M.Tech, MBA",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702435432"
+    },
+    {
+        "S.NO": "60",
+        "College Name": "National Institute of Technology (NIT)",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702458010"
+    },
+    {
+        "S.NO": "61",
+        "College Name": "Osmania University",
+        "Courses": "M.A, M.Sc, M.Tech, MBA, M.Com",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-27098011"
+    },
+    {
+        "S.NO": "62",
+        "College Name": "University of Hyderabad",
+        "Courses": "M.Sc, M.Tech, M.A, MBA, M.Com",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23110000"
+    },
+    {
+        "S.NO": "63",
+        "College Name": "JNTU Hyderabad",
+        "Courses": "M.Tech, M.Sc, MBA",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23158661"
+    },
+    {
+        "S.NO": "64",
+        "College Name": "NALSAR University of Law",
+        "Courses": "LLM, Ph.D.",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23498100"
+    },
+    {
+        "S.NO": "65",
+        "College Name": "ICFAI Business School",
+        "Courses": "MBA, M.Sc",
+        "City": "Hyderabad",
+        "District": "Hyderabad",
+        "State": "Telangana",
+        "Phone No": "40-23435131"
+    },
+    {
+        "S.NO": "66",
+        "College Name": "Kakatiya University",
+        "Courses": "M.A, M.Sc, M.Com, MBA",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702439491"
+    },
+    {
+        "S.NO": "67",
+        "College Name": "JNTU College of Engineering",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702430200"
+    },
+    {
+        "S.NO": "68",
+        "College Name": "Maturi Venkata Subba Rao (MVSR) Engineering College",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702434356"
+    },
+    {
+        "S.NO": "69",
+        "College Name": "Sreenidhi Institute of Science and Technology",
+        "Courses": "M.Tech, MBA",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702435432"
+    },
+    {
+        "S.NO": "70",
+        "College Name": "National Institute of Technology (NIT)",
+        "Courses": "M.Tech, M.Sc",
+        "City": "Warangal",
+        "District": "Warangal",
+        "State": "Telangana",
+        "Phone No": "8702458010"
+    }
+]

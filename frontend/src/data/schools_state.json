@@ -1,0 +1,602 @@
+[
+    {
+        "\ufeffID": "1",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI CHAITANYA TECHNO SCHOOL",
+        "Location": "BANJARA HILLS, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "RAJESH",
+        "Website": "https://scholars.srichaitanya.net/"
+    },
+    {
+        "\ufeffID": "2",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "TRINITY SCHOOL",
+        "Location": "KUKATPALLY, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "PRIYA",
+        "Website": "https://trinityschoolhyd.edu.in/"
+    },
+    {
+        "\ufeffID": "3",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "GEETANJALI SCHOOL",
+        "Location": "GACHIBOWLI, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "KALPANA",
+        "Website": "https://geetanjali.ac.in/"
+    },
+    {
+        "\ufeffID": "4",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "BALAYOGI SCHOOL",
+        "Location": "BOLARUM, SECUNDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "ANANTH",
+        "Website": "https://balayogischool.edu/"
+    },
+    {
+        "\ufeffID": "5",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "ST. ANN'S SCHOOL",
+        "Location": "MALAKPET, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "SATISH",
+        "Website": "https://stanns.edu.in/"
+    },
+    {
+        "\ufeffID": "6",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "GLENDEN SCHOOL",
+        "Location": "KHILKATH, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "RAJESH KUMAR",
+        "Website": "https://glenden.edu.in/"
+    },
+    {
+        "\ufeffID": "7",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "SRI VIDYA MANDIR",
+        "Location": "SRI NAGAR, SECUNDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "MEERA",
+        "Website": "https://srividyamandir.edu/"
+    },
+    {
+        "\ufeffID": "8",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "MSB SCHOOL",
+        "Location": "MALAKPET, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "PRIYA",
+        "Website": "https://msb-schoolhyd.edu.in/"
+    },
+    {
+        "\ufeffID": "9",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "RED ROSE SCHOOL",
+        "Location": "NEW BOWENPALLY, SECUNDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "RAJ KUMAR",
+        "Website": "https://redroseschoolsec.edu/"
+    },
+    {
+        "\ufeffID": "10",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "VISWA VIDYALAYA",
+        "Location": "SECUNDERABAD, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "KALPANA",
+        "Website": "https://viswavidyalaya.edu.in/"
+    },
+    {
+        "\ufeffID": "11",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "SRI CHAITANYA SCHOOL",
+        "Location": "NIZAMABAD, NIZAMABAD",
+        "District": "NIZAMABAD",
+        "Contact Person": "KALPANA",
+        "Website": "https://srichaitanya-nizamabad.edu/"
+    },
+    {
+        "\ufeffID": "12",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "ARMY SCHOOL",
+        "Location": "SECUNDERABAD, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "RAJESH",
+        "Website": "https://armyschoolsec.edu.in/"
+    },
+    {
+        "\ufeffID": "13",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "KENDRIYA VIDYALAYA",
+        "Location": "ADABAD, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "PRIYA",
+        "Website": "https://kvhyd.edu.in/"
+    },
+    {
+        "\ufeffID": "14",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "ST. PETER'S SCHOOL",
+        "Location": "KUKATPALLY, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "MEERA",
+        "Website": "https://stpeters.edu.in/"
+    },
+    {
+        "\ufeffID": "15",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "SRI SAI PUBLIC SCHOOL",
+        "Location": "YELLAREDDY, MEDAK",
+        "District": "MEDAK",
+        "Contact Person": "RAJESH",
+        "Website": "https://srisai-publicschool.edu/"
+    },
+    {
+        "\ufeffID": "16",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "INDIAN SCHOOL",
+        "Location": "MALAKPET, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "KALPANA",
+        "Website": "https://indianschool.edu.in/"
+    },
+    {
+        "\ufeffID": "17",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "SRI MAHA LAXMI SCHOOL",
+        "Location": "PATANCHERU, MEDAK",
+        "District": "MEDAK",
+        "Contact Person": "PRIYA",
+        "Website": "https://sri-mahalaxmi.edu.in/"
+    },
+    {
+        "\ufeffID": "18",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "MODERN SCHOOL",
+        "Location": "MALKAPUR, KHAMMAM",
+        "District": "KHAMMAM",
+        "Contact Person": "RAJESH KUMAR",
+        "Website": "https://modernschoolkhammam.edu/"
+    },
+    {
+        "\ufeffID": "19",
+        "State": "TELANGANA",
+        "Level": "Secondary Level",
+        "School Name": "RAJEEV VIDYALAYA",
+        "Location": "BHEL, HYDERABAD",
+        "District": "HYDERABAD",
+        "Contact Person": "SATISH",
+        "Website": "https://rajeevvidyalaya.edu.in/"
+    },
+    {
+        "\ufeffID": "20",
+        "State": "TELANGANA",
+        "Level": "Senior Secondary Level",
+        "School Name": "GREENWOOD SCHOOL",
+        "Location": "NIZAMABAD, NIZAMABAD",
+        "District": "NIZAMABAD",
+        "Contact Person": "RAJESH",
+        "Website": "https://greenwood.edu.in/"
+    },
+    {
+        "\ufeffID": "21",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI CHAITANYA SCHOOL",
+        "Location": "Nellore, NELLORE",
+        "District": "NELLORE",
+        "Contact Person": "RAJESH",
+        "Website": "https://srichaitanyaschoolncl.edu/"
+    },
+    {
+        "\ufeffID": "22",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "KENDRIYA VIDYALAYA",
+        "Location": "Vijayawada, KRISHNA",
+        "District": "VIJAYAWADA",
+        "Contact Person": "SATISH",
+        "Website": "https://kvvijayawada.edu.in/"
+    },
+    {
+        "\ufeffID": "23",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "GURUKUL SCHOOL",
+        "Location": "RAMESWARAM, KURNOOL",
+        "District": "KURNOOL",
+        "Contact Person": "PRIYA",
+        "Website": "https://gurukul.kur.edu.in/"
+    },
+    {
+        "\ufeffID": "24",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "SANKRANTI SCHOOL",
+        "Location": "SIDDHARTHA, GUNTUR",
+        "District": "GUNTUR",
+        "Contact Person": "RAJESH",
+        "Website": "https://sankranti-guntur.edu/"
+    },
+    {
+        "\ufeffID": "25",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI VENKATESWARA SCHOOL",
+        "Location": "TIRUPATI, CHITTOOR",
+        "District": "CHITTOOR",
+        "Contact Person": "KALPANA",
+        "Website": "https://svschooltirupati.edu/"
+    },
+    {
+        "\ufeffID": "26",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "MOTHER TERESA SCHOOL",
+        "Location": "VISAKHAPATNAM, VISAKHAPATNAM",
+        "District": "VISAKHAPATNAM",
+        "Contact Person": "MEERA",
+        "Website": "https://mtheresaschoolvisakha.edu/"
+    },
+    {
+        "\ufeffID": "27",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI KALPANA SCHOOL",
+        "Location": "ELURU, WEST GODAVARI",
+        "District": "ELURU",
+        "Contact Person": "SATISH",
+        "Website": "https://kalpana-eluru.edu/"
+    },
+    {
+        "\ufeffID": "28",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "SHARADA SCHOOL",
+        "Location": "RAJAHMUNDRY, EAST GODAVARI",
+        "District": "RAJAHMUNDRY",
+        "Contact Person": "RAJESH",
+        "Website": "https://sharadapublicschool.edu.in/"
+    },
+    {
+        "\ufeffID": "29",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SAPTHAGIRI SCHOOL",
+        "Location": "KADAPA, YSR",
+        "District": "KADAPA",
+        "Contact Person": "PRIYA",
+        "Website": "https://sapthagiri-cadapa.edu/"
+    },
+    {
+        "\ufeffID": "30",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "RISHI VIDYA SCHOOL",
+        "Location": "MACHILIPATNAM, KRISHNA",
+        "District": "MACHILIPATNAM",
+        "Contact Person": "RAJESH",
+        "Website": "https://rishividyaschoolmch.edu/"
+    },
+    {
+        "\ufeffID": "31",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "KORRAPOLU SCHOOL",
+        "Location": "SRIKAKULAM, SRIKAKULAM",
+        "District": "SRIKAKULAM",
+        "Contact Person": "KALPANA",
+        "Website": "https://korrapoluschool.edu/"
+    },
+    {
+        "\ufeffID": "32",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "NEW HORIZON SCHOOL",
+        "Location": "VISAKHAPATNAM, VISAKHAPATNAM",
+        "District": "VISAKHAPATNAM",
+        "Contact Person": "RAJESH",
+        "Website": "https://newhorizon-vizag.edu/"
+    },
+    {
+        "\ufeffID": "33",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI SARASWATHI SCHOOL",
+        "Location": "NELLORE, NELLORE",
+        "District": "NELLORE",
+        "Contact Person": "PRIYA",
+        "Website": "https://srisaraswathischoolncl.edu/"
+    },
+    {
+        "\ufeffID": "34",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "ANAND SCHOOL",
+        "Location": "WARANGAL, WARANGAL",
+        "District": "WARANGAL",
+        "Contact Person": "PRIYA",
+        "Website": "https://anandschoolwarangal.edu/"
+    },
+    {
+        "\ufeffID": "35",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SHIVAJI PUBLIC SCHOOL",
+        "Location": "GUNTUR, GUNTUR",
+        "District": "GUNTUR",
+        "Contact Person": "MEERA",
+        "Website": "https://shivajipublicschool.edu/"
+    },
+    {
+        "\ufeffID": "36",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "SRI RAVITEJA SCHOOL",
+        "Location": "ANANTAPUR, ANANTAPUR",
+        "District": "ANANTAPUR",
+        "Contact Person": "RAJESH",
+        "Website": "https://sriravitejaschool.edu/"
+    },
+    {
+        "\ufeffID": "37",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRINIVASA PUBLIC SCHOOL",
+        "Location": "NANDYAL, KURNOOL",
+        "District": "KURNOOL",
+        "Contact Person": "KALPANA",
+        "Website": "https://srinivasapublicschool.edu/"
+    },
+    {
+        "\ufeffID": "38",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "ST. THOMAS SCHOOL",
+        "Location": "MACHILIPATNAM, KRISHNA",
+        "District": "MACHILIPATNAM",
+        "Contact Person": "PRIYA",
+        "Website": "https://stthomasmch.edu/"
+    },
+    {
+        "\ufeffID": "39",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "WHITE FIELD SCHOOL",
+        "Location": "RAJAHMUNDRY, EAST GODAVARI",
+        "District": "RAJAHMUNDRY",
+        "Contact Person": "SATISH",
+        "Website": "https://whitefieldschool.edu/"
+    },
+    {
+        "\ufeffID": "40",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "SHREE VISHNU SCHOOL",
+        "Location": "WEST GODAVARI, ELURU",
+        "District": "ELURU",
+        "Contact Person": "RAJESH",
+        "Website": "https://shreevishnueschool.edu/"
+    },
+    {
+        "\ufeffID": "41",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI RAGHAVENDRA SCHOOL",
+        "Location": "NELLORE, NELLORE",
+        "District": "NELLORE",
+        "Contact Person": "PRIYA",
+        "Website": "https://sriraghavendraschoolncl.edu/"
+    },
+    {
+        "\ufeffID": "42",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "SAI VIDYA SCHOOL",
+        "Location": "TIRUPATI, CHITTOOR",
+        "District": "TIRUPATI",
+        "Contact Person": "MEERA",
+        "Website": "https://saividyaschooltirupati.edu/"
+    },
+    {
+        "\ufeffID": "43",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI DEVI SCHOOL",
+        "Location": "GUNTUR, GUNTUR",
+        "District": "GUNTUR",
+        "Contact Person": "RAJESH",
+        "Website": "https://sridevischoolguntur.edu/"
+    },
+    {
+        "\ufeffID": "44",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "BHARATI PUBLIC SCHOOL",
+        "Location": "SRIKAKULAM, SRIKAKULAM",
+        "District": "SRIKAKULAM",
+        "Contact Person": "KALPANA",
+        "Website": "https://bharatipublicschool.edu/"
+    },
+    {
+        "\ufeffID": "45",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "KENDRIYA VIDYALAYA",
+        "Location": "VISAKHAPATNAM, VISAKHAPATNAM",
+        "District": "VISAKHAPATNAM",
+        "Contact Person": "PRIYA",
+        "Website": "https://kvvizag.edu.in/"
+    },
+    {
+        "\ufeffID": "46",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "VIVEKANANDA SCHOOL",
+        "Location": "RAJAHMUNDRY, EAST GODAVARI",
+        "District": "RAJAHMUNDRY",
+        "Contact Person": "RAJESH",
+        "Website": "https://vivekanandaschool.edu/"
+    },
+    {
+        "\ufeffID": "47",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "ST. MARY'S SCHOOL",
+        "Location": "NELLORE, NELLORE",
+        "District": "NELLORE",
+        "Contact Person": "PRIYA",
+        "Website": "https://stmarysschoolncl.edu/"
+    },
+    {
+        "\ufeffID": "48",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "MAHARSHI SCHOOL",
+        "Location": "KURNOOL, KURNOOL",
+        "District": "KURNOOL",
+        "Contact Person": "SATISH",
+        "Website": "https://maharshischool.edu/"
+    },
+    {
+        "\ufeffID": "49",
+        "State": "ANDHRA PRADESH",
+        "Level": "Senior Secondary Level",
+        "School Name": "SRI VENKATESHWARA SCHOOL",
+        "Location": "KADAPA, YSR",
+        "District": "KADAPA",
+        "Contact Person": "MEERA",
+        "Website": "https://sri-venkateshwara-school.edu/"
+    },
+    {
+        "\ufeffID": "50",
+        "State": "ANDHRA PRADESH",
+        "Level": "Secondary Level",
+        "School Name": "APOLLO SCHOOL",
+        "Location": "VISAKHAPATNAM, VISAKHAPATNAM",
+        "District": "VISAKHAPATNAM",
+        "Contact Person": "RAJESH",
+        "Website": "https://apolloschoolvizag.edu/"
+    },
+    {
+        "\ufeffID": "51",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Ongole Zilla Parishad High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "52",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Sri Chaitanya High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "53",
+        "State": "ANDHRA PRADESH",
+        "Level": "Junior College",
+        "School Name": "Narayana Junior College",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "54",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Little Flower High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "55",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Government High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "56",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Ravindra Bharathi School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "57",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Vignan High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "58",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Sri Sai Vidyaniketan",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "59",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Bhashyam Public School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    },
+    {
+        "\ufeffID": "60",
+        "State": "ANDHRA PRADESH",
+        "Level": "High School",
+        "School Name": "Prathibha High School",
+        "Location": "Ongole, Prakasam",
+        "District": "Ongole",
+        "Contact Person": "Principal",
+        "Website": "N/A"
+    }
+]

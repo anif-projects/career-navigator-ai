@@ -1,0 +1,1302 @@
+[
+    {
+        "\ufeffS.No": "1",
+        "College Name": "Chaitanya Junior College",
+        "Address": "Main Road",
+        "City": "Nellore",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Email": "info@chaitanyacollege.edu.in",
+        "Phone No": "0861-2345678"
+    },
+    {
+        "\ufeffS.No": "2",
+        "College Name": "KRISHNA Junior College",
+        "Address": "Krishna Nagar",
+        "City": "Vijayawada",
+        "District": "Krishna",
+        "State": "Andhra Pradesh",
+        "Email": "krishna@jcollege.in",
+        "Phone No": "0866-2324005"
+    },
+    {
+        "\ufeffS.No": "3",
+        "College Name": "Sri Venkateswara Junior College",
+        "Address": "Near Tirupati",
+        "City": "Chittoor",
+        "District": "Chittoor",
+        "State": "Andhra Pradesh",
+        "Email": "info@svjc.edu.in",
+        "Phone No": "0877-2234567"
+    },
+    {
+        "\ufeffS.No": "4",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Kakinada",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@srichaitanyacollege.in",
+        "Email": "0884-2305800",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "5",
+        "College Name": "Narayana Junior College",
+        "Address": "Brahmanapalli",
+        "City": "Nellore",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Email": "contact@narayanacollege.in",
+        "Phone No": "0861-2341245"
+    },
+    {
+        "\ufeffS.No": "6",
+        "College Name": "Bright Future Junior College",
+        "Address": "Hanuman Junction",
+        "City": "West Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@brightfuturejc.in",
+        "Email": "08812-234321",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "7",
+        "College Name": "Sri Saraswati Junior College",
+        "Address": "Vijayawada",
+        "City": "West Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@srisarawatijc.edu.in",
+        "Email": "0867-2349890",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "8",
+        "College Name": "Sri Devi Junior College",
+        "Address": "Main Road",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Email": "sridevi@jc.edu.in",
+        "Phone No": "08562-230123"
+    },
+    {
+        "\ufeffS.No": "9",
+        "College Name": "Ideal Junior College",
+        "Address": "Near Bus Station",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Email": "info@idealjc.edu.in",
+        "Phone No": "0891-2738942"
+    },
+    {
+        "\ufeffS.No": "10",
+        "College Name": "Oxford Junior College",
+        "Address": "Beach Road",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Email": "contact@oxfordjc.edu.in",
+        "Phone No": "0891-2712345"
+    },
+    {
+        "\ufeffS.No": "11",
+        "College Name": "Advance Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "info@advancejc.in",
+        "Email": "0861-2325201",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "12",
+        "College Name": "St. Mary's Junior College",
+        "Address": "Vizag Road",
+        "City": "Visakhapatnam",
+        "District": "Visakhapatnam",
+        "State": "Andhra Pradesh",
+        "Email": "st.marysjc@edu.in",
+        "Phone No": "0891-2345123"
+    },
+    {
+        "\ufeffS.No": "13",
+        "College Name": "Sri Sai Junior College",
+        "Address": "Brahmanapalli",
+        "City": "Nellore",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Email": "srisai@juniorcollege.edu",
+        "Phone No": "0861-2323145"
+    },
+    {
+        "\ufeffS.No": "14",
+        "College Name": "Shree Vani Junior College",
+        "Address": "Vijayawada",
+        "City": "Krishna",
+        "District": "Andhra Pradesh",
+        "State": "info@shreevanijc.in",
+        "Email": "0866-2344500",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "15",
+        "College Name": "Vidya Junior College",
+        "Address": "Kadapa",
+        "City": " Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Email": "vidya@juniorcollege.edu",
+        "Phone No": "08562-234521"
+    },
+    {
+        "\ufeffS.No": "16",
+        "College Name": "National Junior College",
+        "Address": "East Godavari",
+        "City": "Kakinada",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Email": "info@njcollege.ac.in",
+        "Phone No": "0884-2331025"
+    },
+    {
+        "\ufeffS.No": "17",
+        "College Name": "Sri Surya Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "info@suryaedu.in",
+        "Email": "0861-2345000",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "18",
+        "College Name": "GIT Junior College",
+        "Address": "Guntur",
+        "City": "West Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@gitjc.in",
+        "Email": "0866-2323242",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "19",
+        "College Name": "Sri Bharathi Junior College",
+        "Address": "Kadapa",
+        "City": "Kadapa",
+        "District": "Andhra Pradesh",
+        "State": "sbcollege@edu.in",
+        "Email": "08562-230345",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "20",
+        "College Name": "Narayana Junior College",
+        "Address": "Vijayawada",
+        "City": "Krishna",
+        "District": "Andhra Pradesh",
+        "State": "njc@narayana.edu.in",
+        "Email": "0866-2456789",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "21",
+        "College Name": "Shree Vani Junior College",
+        "Address": "Pedda Gollapalli",
+        "City": "Nellore",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Email": "info@vani.edu",
+        "Phone No": "0861-2230000"
+    },
+    {
+        "\ufeffS.No": "22",
+        "College Name": "Bright Future Junior College",
+        "Address": "Kothapeta",
+        "City": "Kadapa",
+        "District": "Kadapa",
+        "State": "Andhra Pradesh",
+        "Email": "info@brightfuturejc.edu",
+        "Phone No": "08562-230134"
+    },
+    {
+        "\ufeffS.No": "23",
+        "College Name": "Maruthi Junior College",
+        "Address": "Vijayawada",
+        "City": "Krishna",
+        "District": "Andhra Pradesh",
+        "State": "info@maruthijc.edu.in",
+        "Email": "0866-2456711",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "24",
+        "College Name": "Geeta Junior College",
+        "Address": "Chilakaluripet",
+        "City": "Prakasam",
+        "District": "Andhra Pradesh",
+        "State": "info@geetajc.edu.in",
+        "Email": "0868-2445678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "25",
+        "College Name": "Kodandaram Junior College",
+        "Address": "Thummalagunta",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@kodandaramjc.in",
+        "Email": "0884-2304433",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "26",
+        "College Name": "Sri Durga Junior College",
+        "Address": "Gokavaram",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@durgajc.edu",
+        "Email": "0884-2309445",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "27",
+        "College Name": "Kakatiya Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "info@kakatiyajc.in",
+        "Email": "0861-2320195",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "28",
+        "College Name": "Vijetha Junior College",
+        "Address": "Anantapur",
+        "City": "Anantapur",
+        "District": "Andhra Pradesh",
+        "State": "info@vijethajc.com",
+        "Email": "08554-232134",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "29",
+        "College Name": "Oxford Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "oxfordjc@edu.com",
+        "Email": "0891-2738942",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "30",
+        "College Name": "Vidya Junior College",
+        "Address": "Amalapuram",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@vidyajc.edu.in",
+        "Email": "08856-222223",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "31",
+        "College Name": "Kendriya Vidyalaya Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "kvjc@edu.in",
+        "Email": "0891-2567890",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "32",
+        "College Name": "St. Theresa Junior College",
+        "Address": "Kothapeta",
+        "City": "Nellore",
+        "District": "Prakasam",
+        "State": "Andhra Pradesh",
+        "Email": "sttjcollege@edu.in",
+        "Phone No": "0861-2341234"
+    },
+    {
+        "\ufeffS.No": "33",
+        "College Name": "Shree Sai Junior College",
+        "Address": "Kadapa",
+        "City": "Kadapa",
+        "District": "Andhra Pradesh",
+        "State": "info@shreesaijc.com",
+        "Email": "08562-2345678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "34",
+        "College Name": "Narayana Junior College",
+        "Address": "Vijayawada",
+        "City": "Krishna",
+        "District": "Andhra Pradesh",
+        "State": "info@narayanajc.edu.in",
+        "Email": "0866-2420185",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "35",
+        "College Name": "Vidya Vikas Junior College",
+        "Address": "Chittoor",
+        "City": "Chittoor",
+        "District": "Andhra Pradesh",
+        "State": "info@vidyavikasjc.edu.in",
+        "Email": "0877-2349876",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "36",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "srichaitanya@edu.in",
+        "Email": "0891-2321345",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "37",
+        "College Name": "Indira Junior College",
+        "Address": "Guntur",
+        "City": "Guntur",
+        "District": "Andhra Pradesh",
+        "State": "indira@juniorcollege.com",
+        "Email": "0863-2334342",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "38",
+        "College Name": "Rama Junior College",
+        "Address": "Bapatla",
+        "City": "Prakasam",
+        "District": "Andhra Pradesh",
+        "State": "ramajc@edu.in",
+        "Email": "08643-240561",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "39",
+        "College Name": "Ideal Junior College",
+        "Address": "Chirala",
+        "City": "Prakasam",
+        "District": "Andhra Pradesh",
+        "State": "info@idealjc.edu.in",
+        "Email": "08642-232410",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "40",
+        "College Name": "St. Xavier's Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@stxaviersjc.com",
+        "Email": "0891-2748932",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "41",
+        "College Name": "Pragathi Junior College",
+        "Address": "West Godavari",
+        "City": "West Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@pragathijc.edu.in",
+        "Email": "08812-234501",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "42",
+        "College Name": "Shree Saraswati Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "info@shreesaraswatijc.com",
+        "Email": "0861-2325678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "43",
+        "College Name": "Kakatiya Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Andhra Pradesh",
+        "State": "info@kakatiyajc.in",
+        "Email": "0870-2544587",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "44",
+        "College Name": "Jawahar Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "jawaharjc@edu.com",
+        "Email": "0891-2721234",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "45",
+        "College Name": "St. Joseph's Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@stjosephsjc.com",
+        "Email": "0891-2734645",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "46",
+        "College Name": "Sri Rama Junior College",
+        "Address": "Chittoor",
+        "City": "Chittoor",
+        "District": "Andhra Pradesh",
+        "State": "sriramajc@edu.in",
+        "Email": "0877-2323232",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "47",
+        "College Name": "Anna University Junior College",
+        "Address": "East Godavari",
+        "City": "Kakinada",
+        "District": "East Godavari",
+        "State": "Andhra Pradesh",
+        "Email": "info@aujc.edu",
+        "Phone No": "0884-2301222"
+    },
+    {
+        "\ufeffS.No": "48",
+        "College Name": "Subhash Junior College",
+        "Address": "Kadapa",
+        "City": "Kadapa",
+        "District": "Andhra Pradesh",
+        "State": "subhash@juniorcollege.edu",
+        "Email": "08562-234678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "49",
+        "College Name": "Bharathi Junior College",
+        "Address": "Chittoor",
+        "City": "Chittoor",
+        "District": "Andhra Pradesh",
+        "State": "bharathijc@edu.in",
+        "Email": "0877-2320101",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "50",
+        "College Name": "Institute of Science & Technology Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@isthjc.com",
+        "Email": "0891-2526776",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "51",
+        "College Name": "Narayana Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@narayanajc.com",
+        "Email": "040-27256432",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "52",
+        "College Name": "Kendriya Vidyalaya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "kvjc@edu.in",
+        "Email": "040-23218100",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "53",
+        "College Name": "Shree Vani Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@vani.edu.in",
+        "Email": "08742-234567",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "54",
+        "College Name": "Global Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@globaljc.edu",
+        "Email": "0870-2547890",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "55",
+        "College Name": "Sri Sai Junior College",
+        "Address": "Nizamabad",
+        "City": "Nizamabad",
+        "District": "Telangana",
+        "State": "info@saijc.edu",
+        "Email": "08462-234567",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "56",
+        "College Name": "Ravi Shankar Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@ravi@jc.edu.in",
+        "Email": "0878-2340987",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "57",
+        "College Name": "Mirza International Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@mirzacollege.in",
+        "Email": "040-23212312",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "58",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Medchal-Malkajgiri",
+        "City": "Medchal-Malkajgiri",
+        "District": "Telangana",
+        "State": "info@srichaitanya.edu",
+        "Email": "040-23056394",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "59",
+        "College Name": "Sri Vidya Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@vidyajc.edu.in",
+        "Email": "0870-2501234",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "60",
+        "College Name": "Teja Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@tejajc.edu.in",
+        "Email": "040-23645678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "61",
+        "College Name": "Birla Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@birlaschool.edu.in",
+        "Email": "040-27345678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "62",
+        "College Name": "St. Mary's Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@stmarys@jc.com",
+        "Email": "040-23223456",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "63",
+        "College Name": "Shree Sai Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@saijc.com",
+        "Email": "040-23768910",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "64",
+        "College Name": "Sri Krishna Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@krishnajc.edu",
+        "Email": "040-23567765",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "65",
+        "College Name": "Deccan Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@deccan.edu.in",
+        "Email": "040-23450344",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "66",
+        "College Name": "Grace Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@gracejc.edu",
+        "Email": "040-27345689",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "67",
+        "College Name": "St. Joseph's Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@sjc.edu.in",
+        "Email": "040-23234234",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "68",
+        "College Name": "Aditya Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@adityajc.com",
+        "Email": "08742-234012",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "69",
+        "College Name": "Amity Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@amityjc.com",
+        "Email": "0870-2547888",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "70",
+        "College Name": "Sri Rama Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "sriramajc@edu.in",
+        "Email": "0861-2345678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "71",
+        "College Name": "Shree Durga Junior College",
+        "Address": "Kothapeta",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@durgajc.com",
+        "Email": "0884-2305590",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "72",
+        "College Name": "St. Xavier's Junior College",
+        "Address": "Chirala",
+        "City": "West Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@stxaviersjc.com",
+        "Email": "08812-234325",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "73",
+        "College Name": "Satya Sai Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@ssjc.edu.in",
+        "Email": "0891-2765678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "74",
+        "College Name": "Sri Sarada Junior College",
+        "Address": "Prakasam",
+        "City": "Prakasam",
+        "District": "Andhra Pradesh",
+        "State": "info@sarada@jc.com",
+        "Email": "0868-2440892",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "75",
+        "College Name": "Bright Future Junior College",
+        "Address": "Nellore",
+        "City": "Nellore",
+        "District": "Andhra Pradesh",
+        "State": "info@brightfuturejc.in",
+        "Email": "0861-2330089",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "76",
+        "College Name": "Maulana Azad Junior College",
+        "Address": "Kadapa",
+        "City": "Kadapa",
+        "District": "Andhra Pradesh",
+        "State": "info@maulanaazad@jc.com",
+        "Email": "08562-239876",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "77",
+        "College Name": "Anand Junior College",
+        "Address": "Kakinada",
+        "City": "East Godavari",
+        "District": "Andhra Pradesh",
+        "State": "info@anandjc.edu.in",
+        "Email": "0884-2323456",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "78",
+        "College Name": "Mother Teresa Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@mtjc.edu.in",
+        "Email": "0891-2745124",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "79",
+        "College Name": "APC Junior College",
+        "Address": "Kadapa",
+        "City": "Kadapa",
+        "District": "Andhra Pradesh",
+        "State": "apc@juniorcollege.edu",
+        "Email": "08562-238992",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "80",
+        "College Name": "Kartika Junior College",
+        "Address": "Visakhapatnam",
+        "City": "Visakhapatnam",
+        "District": "Andhra Pradesh",
+        "State": "info@kartikajc.edu.in",
+        "Email": "0891-2571345",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "81",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@srichaitanya.edu",
+        "Email": "040-27632832",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "82",
+        "College Name": "Narayana Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@narayanajc.com",
+        "Email": "040-27647777",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "83",
+        "College Name": "St. Mary's Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@stmarysjc.edu",
+        "Email": "040-23223456",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "84",
+        "College Name": "Sri Vidya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@vidyajc.edu.in",
+        "Email": "040-23258976",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "85",
+        "College Name": "Birla Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@birlaschool.edu.in",
+        "Email": "040-27345678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "86",
+        "College Name": "Aditya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@adityajc.edu.in",
+        "Email": "040-23680080",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "87",
+        "College Name": "Shree Vani Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@vani.edu.in",
+        "Email": "08742-234567",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "88",
+        "College Name": "Global Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@globaljc.edu",
+        "Email": "0870-2547890",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "89",
+        "College Name": "Sri Sai Junior College",
+        "Address": "Nizamabad",
+        "City": "Nizamabad",
+        "District": "Telangana",
+        "State": "info@saijc.edu",
+        "Email": "08462-234567",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "90",
+        "College Name": "Ravi Shankar Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@ravi@jc.edu.in",
+        "Email": "0878-2340987",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "91",
+        "College Name": "Sri Krishna Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@krishnajc.edu",
+        "Email": "0870-2545876",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "92",
+        "College Name": "Teja Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@tejajc.edu.in",
+        "Email": "040-23645678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "93",
+        "College Name": "St. Xavier's Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@stxaviersjc.edu",
+        "Email": "040-23256789",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "94",
+        "College Name": "Sri Durga Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@durgajc.edu.in",
+        "Email": "08742-233334",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "95",
+        "College Name": "Amity Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@amityjc.com",
+        "Email": "0870-2547888",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "96",
+        "College Name": "Deccan Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@deccan.edu.in",
+        "Email": "040-23450344",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "97",
+        "College Name": "Shree Sai Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@saijc.com",
+        "Email": "040-23768910",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "98",
+        "College Name": "Jawahar Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@jawaharjc.edu",
+        "Email": "0870-2523457",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "99",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@chaitanyajc.com",
+        "Email": "08742-234900",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "100",
+        "College Name": "Sri Rama Junior College",
+        "Address": "Nizamabad",
+        "City": "Nizamabad",
+        "District": "Telangana",
+        "State": "info@sriramajc.com",
+        "Email": "08462-234987",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "101",
+        "College Name": "Narayana Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@narayanajc.com",
+        "Email": "0878-2341234",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "102",
+        "College Name": "Sri Vani Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@vani.edu.in",
+        "Email": "040-23213000",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "103",
+        "College Name": "Amara Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@amarajc.edu.in",
+        "Email": "08742-234010",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "104",
+        "College Name": "Aditya Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@adityajc.edu.in",
+        "Email": "0878-2343200",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "105",
+        "College Name": "St. Mary's Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@stmarys@jc.com",
+        "Email": "08742-234076",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "106",
+        "College Name": "Mirza International Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@mirzacollege.edu",
+        "Email": "040-23212312",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "107",
+        "College Name": "Sri Krishna Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@krishnajc.edu",
+        "Email": "040-23213445",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "108",
+        "College Name": "Sri Chaitanya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@srichaitanyacollege.in",
+        "Email": "040-27658678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "109",
+        "College Name": "Hyderabad Public School Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "hps@edu.in",
+        "Email": "040-23223476",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "110",
+        "College Name": "Shree Sai Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@shreesaijc.com",
+        "Email": "0870-2505000",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "111",
+        "College Name": "Global Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@globaljc.edu.in",
+        "Email": "040-27055678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "112",
+        "College Name": "Jawahar Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@jawaharjc.edu.in",
+        "Email": "0878-2345333",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "113",
+        "College Name": "Sri Saraswati Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@saraswatijc.com",
+        "Email": "040-27080011",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "114",
+        "College Name": "Shree Vani Junior College",
+        "Address": "Medchal-Malkajgiri",
+        "City": "Medchal-Malkajgiri",
+        "District": "Telangana",
+        "State": "info@vani.edu.in",
+        "Email": "040-27252800",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "115",
+        "College Name": "Narayana Junior College",
+        "Address": "Nizamabad",
+        "City": "Nizamabad",
+        "District": "Telangana",
+        "State": "info@narayanajc.com",
+        "Email": "08462-234569",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "116",
+        "College Name": "St. Xavier's Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@stxaviersjc.com",
+        "Email": "0878-2345020",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "117",
+        "College Name": "Aditya Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@adityajc.com",
+        "Email": "0870-2545643",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "118",
+        "College Name": "Mirza Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@mirzajc.in",
+        "Email": "040-23457589",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "119",
+        "College Name": "Innovative Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@innovativejc.com",
+        "Email": "08742-234576",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "120",
+        "College Name": "Sri Venkateshwara Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@venkateshwarajc.com",
+        "Email": "040-27254678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "121",
+        "College Name": "Shree Chaitanya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@srichaitanya.edu.in",
+        "Email": "040-27634321",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "122",
+        "College Name": "Aditya Junior College",
+        "Address": "Khammam",
+        "City": "Khammam",
+        "District": "Telangana",
+        "State": "info@adityajc.edu",
+        "Email": "08742-234780",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "123",
+        "College Name": "Sri Sarada Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@srisaradacollege.edu",
+        "Email": "0870-2523433",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "124",
+        "College Name": "Andhra Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@andhrajc.edu",
+        "Email": "040-23478823",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "125",
+        "College Name": "Shree Krishna Junior College",
+        "Address": "Karimnagar",
+        "City": "Karimnagar",
+        "District": "Telangana",
+        "State": "info@shreekrishna.edu",
+        "Email": "0878-2345678",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "126",
+        "College Name": "SV Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@svjc.edu.in",
+        "Email": "040-27548921",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "127",
+        "College Name": "Sri Rama Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@sriramajc.com",
+        "Email": "040-23658911",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "128",
+        "College Name": "Kendriya Vidyalaya Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "kvjc@edu.in",
+        "Email": "040-23218100",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "129",
+        "College Name": "Global Institute Junior College",
+        "Address": "Warangal",
+        "City": "Warangal",
+        "District": "Telangana",
+        "State": "info@globaljc.edu",
+        "Email": "0870-2545000",
+        "Phone No": ""
+    },
+    {
+        "\ufeffS.No": "130",
+        "College Name": "Shree Sai Junior College",
+        "Address": "Hyderabad",
+        "City": "Hyderabad",
+        "District": "Telangana",
+        "State": "info@saijc.edu",
+        "Email": "040-23680008",
+        "Phone No": ""
+    }
+]
